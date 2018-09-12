@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  subtitle: MyString
+  timestamp: 2018-09-11
+  content: MyString
+  active: false
+
+two:
+  title: MyString
+  subtitle: MyString
+  timestamp: 2018-09-11
+  content: MyString
+  active: false

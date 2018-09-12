@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<%= link_to 'Back', posts_path %>
+<h1 style="text-align: center;"><%= @post.title %></h1>
+
+<h2 style="text-align: center;">
+  <%= @post.subtitle %>
+</h2>
+
+<div style="padding: 50px;">
+  <%= @post.content %>
+</div>
+
+<footer style="position: fixed; bottom: 10px; text-align: center; width: 100%; margin: 0; padding: 0;">
+  Published on: <%= @post.timestamp %>
+</footer>
+
+<%= link_to 'Edit', edit_post_path(@post) %>
+
