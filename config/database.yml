@@ -1,0 +1,21 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: blog_dev
+  pool: 5
+  username: postgres
+  password: ---
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: blog_test
+  pool: 5
+  username: postgres
+  password: ---
+
+production:
+  database: lgblog_production
+  adapter: postgresql
+  host: localhost
+  password: produc
